@@ -1,1 +1,1 @@
-kubectl run tmp-shell-kafka --rm -it --image acadx0/kafka -- ./kafka-console-consumer.sh --topic dc1.k8s.log.systemd.1 --bootstrap-server dc1-ts-kafka01.tossinvest.bz:9092
+kubectl run tmp-shell-kafka --rm -it --image acadx0/tools:kafka -- ./kafka-console-consumer.sh --topic {} --bootstrap-server {}
