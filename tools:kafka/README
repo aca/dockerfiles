@@ -1,1 +1,1 @@
-kubectl run tmp-shell-kafka --rm -it --image acadx0/tools:kafka -- ./kafka-console-consumer.sh --topic {} --bootstrap-server {}
+kubectl run tmp-kafka-client --rm -it --image acadx0/tools:kafka -- ./kafka-console-consumer.sh --topic {} --bootstrap-server {}
